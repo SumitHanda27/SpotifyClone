@@ -1,0 +1,66 @@
+.border{
+    border: 2px solid red ;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-Center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit-based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+    border: 3px solid #333; /* Border around the thumb */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox does not support customizing scrollbar style directly with CSS.
+     This code targets Firefox only, and it requires Gecko engine (Mozilla) versions 64 and later. */
+  /* You may need to enable the "layout.css.scrollbar-color.enabled" flag in "about:config" in Firefox */
+  * {
+    scrollbar-color: #666 #333;
+    scrollbar-width: thin;
+  }
+  
